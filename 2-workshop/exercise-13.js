@@ -20,6 +20,14 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  let fiboArray = [0, 1];
+
+  for (let i = 2; i < 50; i++) {
+    fiboArray.push(fiboArray[i - 2] + fiboArray[i - 1]);
+  }
+  console.log(fiboArray[49]);
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

@@ -23,6 +23,17 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  for (let hourOfDay = 0; hourOfDay <= 23; hourOfDay++) {
+    if (hourOfDay === 6 || hourOfDay === 12 || hourOfDay === 18) {
+      console.log(`It's ${hourOfDay}h. Time to eat!`);
+    } else if (hourOfDay > 5 && hourOfDay < 22) {
+      console.log(`It's ${hourOfDay}h. Time to train!`);
+    } else {
+      console.log(`It's ${hourOfDay}h. Time to sleep!`);
+    }
+  }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

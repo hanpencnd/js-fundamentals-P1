@@ -15,6 +15,24 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  let number = 200;
+  for (let i = 1; i <= number; i++) {
+    // toggle on when the number is prime
+    let toggle = true;
+
+    for (let j = 2; j < i; j++) {
+      if (i % j === 0) {
+        // toggle off when the number is not prime
+        toggle = false;
+      }
+    }
+    // all prime numbers including 2
+    if (toggle && i >= 2) {
+      console.log(i);
+    }
+  }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

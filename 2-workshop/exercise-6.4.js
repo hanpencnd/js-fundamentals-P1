@@ -6,6 +6,18 @@ function exercise6_4() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  for (let i = 36; i >= 0; i -= 2) {
+    console.log(i);
+  }
+
+  // Another Solution
+  // for (let i = 36; i >= 0; i--) {
+  //   if (i % 2 === 0) {
+  //     console.log(i);
+  //   }
+  // }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
