@@ -17,10 +17,13 @@ function exercise12() {
   // -----------------------------------------------------------------
 
   let number = 200;
+
+  // Count the number in the range
   for (let i = 1; i <= number; i++) {
     // toggle on when the number is prime
     let toggle = true;
 
+    // Sort out any numbers divisible by numbers other than 1 and itself i.e i=4 j=2
     for (let j = 2; j < i; j++) {
       if (i % j === 0) {
         // toggle off when the number is not prime
